@@ -274,11 +274,11 @@ public class UserServiceImpl implements UserService {
 
 1、**@Controller**：
 
-​		@Controller 用于标记在一个类上，使用它标记的类就是一个SpringMVC Controller 对象。分发处理器将会		扫描使用了该注解的类的方法，并检测该方法是否使用了@RequestMapping 注解。@Controller 只是定义了		一个控制器类，而使用@RequestMapping 注解的方法才是真正处理请求的处理器。
+​		@Controller 用于标记在一个类上，使用它标记的类就是一个SpringMVC Controller 对象。分发处理器将会扫描使用了该注解的类的方法，并检测该方法是否使用了@RequestMapping 注解。@Controller 只是定义了一个控制器类，而使用@RequestMapping 注解的方法才是真正处理请求的处理器。
 
 2、**@RequestMapping**：
 
-​		RequestMapping是一个用来处理请求地址映射的注解，可用于类或方法上。用于类上，表示类中的所有响应		请求的方法都是以该地址作为父路径。
+​		RequestMapping是一个用来处理请求地址映射的注解，可用于类或方法上。用于类上，表示类中的所有响应请求的方法都是以该地址作为父路径。
 
 3、**@Resource和@Autowired**：
 
@@ -291,6 +291,8 @@ public class UserServiceImpl implements UserService {
 4、**@ResponseBody**：可以设置方法返回类型为参数
 
 5、**@RequestBody**：将引用类型数据，封装到方法的参数中
+
+6、 **@PathVariable ：**匹配restful风格url中的数据
 
 ## SpringMVC的xml文件配置
 
